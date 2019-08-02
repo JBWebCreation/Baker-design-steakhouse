@@ -1,0 +1,255 @@
+/* General stuff */
+
+body {
+	min-height: 100%;
+	background: #EAE4DC;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 1.5px;
+}
+
+body li, ul, h1, h2, h3, h4, h5, h6, img {
+	padding: 0;
+	margin: 0;
+}
+
+::selection {
+	background-color: #1c1c1c;
+}
+
+::-moz-selection {
+	background-color: #1c1c1c;
+}
+
+.linkBox {
+	margin: 0 auto;
+	height: 65px;
+	width: 200px;
+	border-radius: 50px;
+	background-image: linear-gradient(to bottom right, #858585, #212121);
+}
+
+.linkBox  h2 {
+	font-size: 22px;
+	font-family: 'Roboto';
+	color: #EDF1FA;
+	padding-top: 15px;
+	font-weight: normal;
+}
+
+/* Navigation */
+
+nav {
+	width: 100%;
+	height: 140px;
+	background-color: rgba(28, 28, 28, 90%);
+}
+
+nav a {
+	text-decoration: none;
+	color: #EDF1FA;
+	padding: 0;
+}
+
+#logo, #topLinks, #reservation {
+	display: inline-block;
+}
+
+#logo {
+	width: 260px;
+	height: 115px;
+	padding-top: 15px;
+	margin-left: 30px;
+}
+
+
+#logo img {
+	height: auto;
+	width: 260px;
+}
+
+#topLinks {
+	margin-left: 20px;
+	margin-top: 44px;
+	vertical-align: top;
+}
+
+.active {
+	color: #C7B5A9;
+}
+
+#topLinks a,
+.active {
+	display: inline-block;
+	font-family: 'Roboto';
+	font-size: 18px;
+	margin-left: 80px;
+}
+
+#reservation {
+	color: white;
+	vertical-align: top;
+	float: right;
+	margin: 25px 50px 0 0;
+	border-radius: 50px;
+	background-image: linear-gradient(to bottom right, #C7B5A9, #B78F73);
+}
+
+#reservation p {
+	padding: 10px;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+/* Content */
+
+#wip {
+	width: 30%;
+	height: 100%;
+	padding: 7%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/* Footer */
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	margin-top: 150px;
+	height: 230px;
+	width: 100%;
+	background-image: linear-gradient(to bottom right, rgb(28, 28, 28), #1C1C1C); /* Fallback */
+	background-image: linear-gradient(to bottom right, rgba(28, 28, 28, 80%), #1C1C1C 100%);
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+#footerContact {
+	color: #EDF1FA;
+	font-family: 'Lato';
+	text-align: left;
+	float: left;
+	margin-left: 30px;
+}
+
+.contactLine i, .contactLine p {
+	display: inline-block;
+}
+
+.contact p {
+	font-size: 16px;
+}
+
+.contactLine i {
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.contactLine {
+	margin-top: 30px;
+}
+
+#footerMid {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: 400px;
+	height: 100px;
+	padding-top: 60px;
+}
+
+#nav01, #nav02, #nav03 {
+	display: inline-block;
+	font-family: 'Lato';
+	font-size: 20px;
+	height: 30px;
+}
+
+#nav01 a, #nav02 a, #nav03 a {
+	color: #939393;
+}
+
+#nav01, #nav02 {
+	border-right: 2px #EDF1FA solid;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#nav03 {
+	padding-left: 15px;
+}
+
+#nav01 p, #nav02 p, #nav03 p {
+	padding: 0;
+	margin: 0;
+}
+
+#footerSocial a {
+	text-decoration: none;
+	color: #EDF1FA;
+	font-size: 26px;
+	margin: 20px;
+	display: inline-block;
+}
+
+#footerSocial {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#copyright {
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	font-family: 'Lato';
+	font-size: 14px;
+	color: #747474;
+}
+
+#reservationBottom a {
+	color: #EDF1FA;
+	font-size: 16px;
+	font-family: 'Lato';
+	margin-top: 80px;
+	margin-right: 30px;
+	padding: 0;
+	text-align: left;
+	float: right;
+}
+
+/* Hover effects */
+
+#topLinks a:hover {
+	color: #939393;
+}
+
+#reservation:hover {
+	background: #B78F73;
+}
+
+#newsletterBox input[type=submit]:hover {
+	background-color: #ffff;
+	cursor: pointer;
+}
+
+.linkBox:hover {
+	background: #4B4B4B;
+}
+
+#footerNav p:hover {
+	color: #EDF1FA;
+}
+
+#footerSocial i:hover {
+	color: #939393;
+}
+
+#reservationBottom a:hover {
+	color: #939393;
+}
